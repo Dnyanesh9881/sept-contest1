@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      td,
+      th,
+      tr {
+        border: 1px solid black;
+      }
+      #stat {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -12,12 +22,11 @@
     </header>
     <main>
       <nav>
-        <a href="description">Description</a>|
-        <a href="attractions">Attractions</a>|
-        <a href="statistics">Statistics</a>|
-        <a href="feedback">Feedback</a>|
-        <a href="quotes">Quotes</a>|
-        <a href="contact">Contact</a>
+        <a href="#description">Description</a>|
+        <a href="#attractions">Attractions</a>|
+        <a href="#statistics">Statistics</a>| <a href="#feedback">Feedback</a>|
+        <a href="#quotes">Quotes</a>|
+        <a href="#contact">Contact</a>
       </nav>
       <section id="description">
         <h2>Descover Atlantica</h2>
@@ -27,7 +36,7 @@
         />
         <p>
           Atlantica, the city where the horizone merges the sky with ocean,
-          offering dreams a canvas as vast as the sea
+          offering dreams a canvas as vast as the sea.
         </p>
       </section>
       <section id="attractions">
@@ -51,7 +60,8 @@
         </ul>
       </section>
       <section id="statistics">
-        <table>
+        <h2>City Statistics</h2>
+        <table id="stat">
           <tr>
             <th>Attributes</th>
             <th>Value</th>
